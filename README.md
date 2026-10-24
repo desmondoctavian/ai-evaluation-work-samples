@@ -11,7 +11,7 @@ This repository documents a small, source-grounded investigation of model-genera
 - [10 historically sourced review items](data/items.csv), each pointing to a limited [source/output evidence excerpt](evidence/excerpts/). These are *AI-curated candidate items*, not ten independent human labels.
 - [Source-fidelity rubric v1.0](rubrics/source-fidelity-v1.md), with supported, contradicted, unsupported, observation-only, unscorable and excluded-invalid categories.
 - [Record of a disclosed invalid input](evidence/correction-run13.md), and [correction history](corrections/CHANGELOG.md).
-- [Annotation worksheet](data/author_review_template.csv): Brian's original first-pass responses to [E01](data/first_pass/E01_2026-10-24.md), [E02](data/first_pass/E02_2026-10-24.md), [E03](data/first_pass/E03_2026-10-24.md), and [E04](data/first_pass/E04_2026-10-24.md) are recorded verbatim, independently of separately authored AI critiques in [data/ai_review](data/ai_review/). E05–E10 remain blank.
+- [Annotation worksheet](data/author_review_template.csv): Brian's original first-pass responses to [E01](data/first_pass/E01_2026-10-24.md), [E02](data/first_pass/E02_2026-10-24.md), [E03](data/first_pass/E03_2026-10-24.md), and [E04](data/first_pass/E04_2026-10-24.md) are recorded verbatim, independently of separately authored AI critiques in [data/ai_review](data/ai_review/). E04 also has a [post-review agreement with the AI assessment](data/revisions/E04_2026-10-24.md), separately documented. E05–E10 remain blank.
 - [Attribution](methods/attribution.md), [reproduction limits](methods/reproduction.md), and [privacy approach](methods/privacy.md).
 
 ## Why this is relevant to AI evaluation

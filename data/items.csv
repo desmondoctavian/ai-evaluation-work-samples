@@ -2,7 +2,7 @@ item_id,focus,question,evidence_file,criterion_family,review_status,original_aud
 E01,Unfinished work and intent,Does the generated narration give a source-supported reason for the unfinished connectivity scenes?,evidence/excerpts/E01.md,source_fidelity,first_pass_recorded_no_adjudication,no,no
 E02,Pending mechanics presented as mandatory,Does the narration preserve the distinction between options still in development and requirements?,evidence/excerpts/E02.md,source_fidelity,first_pass_recorded_pending_adjudication,no,no
 E03,Pending mechanics correctly retained,Does the narration accurately preserve the source’s pending status?,evidence/excerpts/E03.md,source_fidelity,first_pass_recorded_pending_adjudication,no,no
-E04,Unwritten assignments correctly retained,Does the narration accurately describe who still needs to write the scenes?,evidence/excerpts/E04.md,source_fidelity,first_pass_recorded_pending_adjudication,no,no
+E04,Unwritten assignments correctly retained,Does the narration accurately describe who still needs to write the scenes?,evidence/excerpts/E04.md,source_fidelity,post_ai_review_revision_supported_original_preserved,no,no
 E05,Added frequency for a bread obligation,Is a daily frequency established by the source?,evidence/excerpts/E05.md,source_fidelity,awaiting_author_review,no,no
 E06,Categorical combat claim,Can the categorical statement that Erick avoids all combat be established from the source?,evidence/excerpts/E06.md,source_fidelity,awaiting_author_review,no,no
 E07,AI internal-knowledge claim,Does the transcript substantiate the narrator’s claim to know its own training data?,evidence/excerpts/E07.md,self_report,awaiting_author_review,no,no

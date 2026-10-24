@@ -6,6 +6,6 @@
 
 **NotebookLM:** generated the historical chat replies and narrations represented in transcript files (generation conditions as reported by the participant). Audio was not reverified in this package.
 
-**Brian's new annotation status:** E01 first-pass label and rationale received on 2026-10-24 and preserved verbatim in `data/first_pass/E01_2026-10-24.md`, prior to subsequent AI critique; E02–E10 remain blank. E01 is **historically exposed reannotation**, not a blinded or unaided evaluation. The evidence extracts, question, answer choices, and rubric were AI-curated. Brian did not provide a severity or exact line citation in the first pass. An initial label is not an adjudicated final finding.
+**Brian's new annotation status:** E01 and E02 first-pass labels and rationales received on 2026-10-24 and preserved verbatim in `data/first_pass/` before separate AI critiques in `data/ai_review/`; E03–E10 remain blank. E01 is **historically exposed reannotation**, not a blinded or unaided evaluation. The evidence extracts, question, answer choices, and rubric were AI-curated. Brian did not provide severity or exact line citations for E01 or E02. E02's label was explicitly confirmed in a follow-up message before AI critique. An initial label is not an adjudicated final finding.
 
 **Correction standard:** Keep an initial judgment, any AI critique, an adjudicated judgment, and who supplied each. Final editorial approval or project authority does not retroactively assign authorship.

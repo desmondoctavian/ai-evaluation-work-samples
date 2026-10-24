@@ -11,7 +11,7 @@ This repository documents a small, source-grounded investigation of model-genera
 - [10 historically sourced review items](data/items.csv), each pointing to a limited [source/output evidence excerpt](evidence/excerpts/). These are *AI-curated candidate items*, not ten independent human labels.
 - [Source-fidelity rubric v1.0](rubrics/source-fidelity-v1.md), with supported, contradicted, unsupported, observation-only, unscorable and excluded-invalid categories.
 - [Record of a disclosed invalid input](evidence/correction-run13.md), and [correction history](corrections/CHANGELOG.md).
-- [Blank first-pass annotation worksheet](data/author_review_template.csv), to be completed by Brian. A future release will preserve his personally recorded rationales separately from AI review.
+- [Annotation worksheet](data/author_review_template.csv): Brian's personally authored first-pass [E01 judgment and rationale](data/first_pass/E01_2026-10-24.md) are now recorded verbatim, separately from [subsequent AI feedback](data/ai_review/E01_2026-10-24.md). E02–E10 remain blank.
 - [Attribution](methods/attribution.md), [reproduction limits](methods/reproduction.md), and [privacy approach](methods/privacy.md).
 
 ## Why this is relevant to AI evaluation
@@ -24,7 +24,7 @@ The excerpts allow a reviewer to check concrete questions: When did a narration 
 
 **Brian Desmond Shaw**: project direction; historically documented questions, corrections, selected experiments, tool use, and observations. **AI assistants**: substantial historical analysis, curation of these ten items, rubric design, document drafting, and this public package. **NotebookLM**: generated the historical narration transcripts. See [contribution detail](methods/attribution.md).
 
-**Not claimed:** a model-compliance percentage, a controlled causal prompt experiment, an independently verified provider execution log, a peer-reviewed study, Brian-authored scores for these ten items, paid production annotations, or independently written programming code.
+**Not claimed:** a model-compliance percentage, a controlled causal prompt experiment, an independently verified provider execution log, a peer-reviewed study, a complete set of ten Brian-authored scores, paid production annotations, or independently written programming code.
 
 The original full creative manuscript, private conversation archive, private source records and original generated audio **are not published**. Public excerpts are limited and source-linked, but lack independent provider receipts. Transcription artifacts may remain.
 
@@ -32,6 +32,6 @@ The original full creative manuscript, private conversation archive, private sou
 
 Open [items.csv](data/items.csv), choose an item, read its linked excerpt, apply [the rubric](rubrics/source-fidelity-v1.md), and compare the response to the given source. [Reproduction notes](methods/reproduction.md) explain what can and cannot be checked from this derivative record.
 
-**Next planned evidence:** Brian's personally documented short labels/rationales on these already-seen historical cases (disclosed as reannotation), followed by an unfamiliar, blinded pairwise-response exercise. See [Next steps](NEXT_STEPS.md).
+**Next planned evidence:** Brian's own remaining item-level labels and rationales (E02–E10; disclosed as historical reannotation), followed by an unfamiliar, blinded pairwise-response exercise. See [Next steps](NEXT_STEPS.md).
 
 **Professional links:** [LinkedIn](https://www.linkedin.com/in/bdesmondshaw/) · [GitHub](https://github.com/desmondoctavian) · [ORCID](https://orcid.org/0009-0008-9121-2215).

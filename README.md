@@ -8,10 +8,10 @@ This repository documents a small, source-grounded investigation of model-genera
 
 ## What is here
 
-- [10 historically sourced review items](data/items.csv), each pointing to a limited [source/output evidence excerpt](evidence/excerpts/). These are *AI-curated candidate items*, not ten independent human labels.
+- [10 historically sourced review items](data/items.csv), each pointing to a limited [source/output evidence excerpt](evidence/excerpts/). These are *AI-curated candidate items* with ten human first-pass responses, not an independently scored or blinded benchmark.
 - [Source-fidelity rubric v1.0](rubrics/source-fidelity-v1.md), with supported, contradicted, unsupported, observation-only, unscorable and excluded-invalid categories.
 - [Record of a disclosed invalid input](evidence/correction-run13.md), and [correction history](corrections/CHANGELOG.md).
-- [Annotation worksheet](data/author_review_template.csv): Brian's original first-pass responses to [E01](data/first_pass/E01_2026-10-24.md), [E02](data/first_pass/E02_2026-10-24.md), [E03](data/first_pass/E03_2026-10-24.md), [E04](data/first_pass/E04_2026-10-24.md), [E05](data/first_pass/E05_2026-10-24.md), and [E06](data/first_pass/E06_2026-10-24.md) are recorded verbatim, independently of separately authored AI critiques in [data/ai_review](data/ai_review/). E04 also has a [post-review agreement with the AI assessment](data/revisions/E04_2026-10-24.md), separately documented. E05 preserves a pre-AI-critique correction from CONTRADICTED to UNSUPPORTED; [AI source check](data/ai_review/E05_2026-10-24.md) is separate. E06 has a separate [AI source check](data/ai_review/E06_2026-10-24.md). E07's [original first pass](data/first_pass/E07_2026-10-24.md) and [post-review rationale clarification](data/revisions/E07_2026-10-24.md) are separately documented. E08's [verbatim first pass](data/first_pass/E08_2026-10-24.md) and [separate AI critique](data/ai_review/E08_2026-10-24.md) are now recorded. E09 first pass is now recorded, while E10 remains pending.
+- [Annotation worksheet](data/author_review_template.csv): **All ten E01–E10 first-pass judgments have now been submitted and preserved in [data/first_pass](data/first_pass/)**. Each is historically exposed reannotation, not a blinded score. Subsequent AI critique, accepted corrections, and revised rationales are attributed separately in [data/ai_review](data/ai_review/) and [data/revisions](data/revisions/). E08's latest wording was received in the conversation but could not be committed, so the worksheet still reflects its earlier recorded rationale. Some other AI review files remain incomplete.
 - [Attribution](methods/attribution.md), [reproduction limits](methods/reproduction.md), and [privacy approach](methods/privacy.md).
 
 ## Why this is relevant to AI evaluation
@@ -24,7 +24,7 @@ The excerpts allow a reviewer to check concrete questions: When did a narration 
 
 **Brian Desmond Shaw**: project direction; historically documented questions, corrections, selected experiments, tool use, and observations. **AI assistants**: substantial historical analysis, curation of these ten items, rubric design, document drafting, and this public package. **NotebookLM**: generated the historical narration transcripts. See [contribution detail](methods/attribution.md).
 
-**Not claimed:** a model-compliance percentage, a controlled causal prompt experiment, an independently verified provider execution log, a peer-reviewed study, a complete set of ten Brian-authored scores, paid production annotations, or independently written programming code.
+**Not claimed:** a model-compliance percentage, a controlled causal prompt experiment, an independently verified provider execution log, a peer-reviewed study, an independently validated set of ten scores, paid production annotations, or independently written programming code.
 
 The original full creative manuscript, private conversation archive, private source records and original generated audio **are not published**. Public excerpts are limited and source-linked, but lack independent provider receipts. Transcription artifacts may remain.
 
@@ -32,6 +32,6 @@ The original full creative manuscript, private conversation archive, private sou
 
 Open [items.csv](data/items.csv), choose an item, read its linked excerpt, apply [the rubric](rubrics/source-fidelity-v1.md), and compare the response to the given source. [Reproduction notes](methods/reproduction.md) explain what can and cannot be checked from this derivative record.
 
-**Next planned evidence:** Brian's own remaining item-level labels and rationales (E10; disclosed as historical reannotation), followed by an unfamiliar, blinded pairwise-response exercise. See [Next steps](NEXT_STEPS.md).
+**Next planned evidence:** Verify and complete any outstanding review/provenance records, then prepare an unfamiliar, blinded pairwise-response exercise. See [Next steps](NEXT_STEPS.md).
 
 **Professional links:** [LinkedIn](https://www.linkedin.com/in/bdesmondshaw/) · [GitHub](https://github.com/desmondoctavian) · [ORCID](https://orcid.org/0009-0008-9121-2215).

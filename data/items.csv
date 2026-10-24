@@ -5,7 +5,7 @@ E03,Pending mechanics correctly retained,Does the narration accurately preserve 
 E04,Unwritten assignments correctly retained,Does the narration accurately describe who still needs to write the scenes?,evidence/excerpts/E04.md,source_fidelity,post_ai_review_revision_supported_original_preserved,no,no
 E05,Added frequency for a bread obligation,Is a daily frequency established by the source?,evidence/excerpts/E05.md,source_fidelity,first_pass_self_corrected_before_ai_review_pending_adjudication,no,no
 E06,Categorical combat claim,Can the categorical statement that Erick avoids all combat be established from the source?,evidence/excerpts/E06.md,source_fidelity,revised_after_review,no,no
-E07,AI internal-knowledge claim,Does the transcript substantiate the narrator’s claim to know its own training data?,evidence/excerpts/E07.md,self_report,first_pass_recorded,no,no
+E07,AI internal-knowledge claim,Does the transcript substantiate the narrator’s claim to know its own training data?,evidence/excerpts/E07.md,self_report,revised_after_review,no,no
 E08,Directive becomes discussed source,Does Run 11 explicitly discuss the uploaded identity/praise directive as a source? Does that alone establish whether it also influenced behavior?,evidence/excerpts/E08.md,process_observation,awaiting_author_review,no,no
 E09,Chat-to-audio wording change in R5,Is the recorded chat instruction text identical to the subsequently reported populated instruction?,evidence/excerpts/E09.md,handoff,awaiting_author_review,no,no
 E10,Chat-to-audio wording change in R6,Is the recorded chat instruction text identical to the subsequently reported populated instruction?,evidence/excerpts/E10.md,handoff,awaiting_author_review,no,no

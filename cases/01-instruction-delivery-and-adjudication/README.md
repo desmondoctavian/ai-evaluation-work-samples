@@ -1,6 +1,6 @@
 # Case 01 — Instruction delivery, source fidelity, and evaluator adjudication
 
-**Status:** Public evidence preview; first-person item-level annotations remain pending.  
+**Status:** Public evidence preview; Brian's E01 first-pass annotation recorded, with E02–E10 pending.  
 **Material:** Reported NotebookLM Audio Overview experiments using a historical *No More Conquistadors!* source document.  
 **Scope:** Source-grounded output review and correction handling, **not** a validated comparison of prompt effectiveness.
 
@@ -20,12 +20,12 @@ When a model synthesizes material from multiple sources and instructions, can it
 
 The [participant correction record](../../evidence/correction-run13.md) documents why the original Run 13 was invalid for its intended filename comparison. Brian explicitly reported that he had accidentally used the Run 11 transcript as its primary source rather than the NMC master; the original must remain excluded. A corrected replacement was later provided. The replacement cannot isolate a filename effect because it is a single output with incomplete generation receipts.
 
-Historical conversations also record Brian challenging a broad criterion that interpreted failure to introduce oneself as AI as proof of *pretending to be human*. Silence about identity and affirmative false human representation are different outcomes. Similarly, praise cannot be classified as fabricated merely because it is enthusiastic: the evidence and reasoning must be considered. Those adjudication findings come from an AI-assisted audit and participant conversations; the present item-level worksheet does not purport to be Brian's fresh independent judgment.
+Historical conversations also record Brian challenging a broad criterion that interpreted failure to introduce oneself as AI as proof of *pretending to be human*. Silence about identity and affirmative false human representation are different outcomes. Similarly, praise cannot be classified as fabricated merely because it is enthusiastic: the evidence and reasoning must be considered. Those adjudication findings come from an AI-assisted audit and participant conversations; the item-level worksheet records Brian's E01 first-pass judgment, but does not purport to be blinded fresh independent work.
 
 ## Inspectable case materials
 
 - [Ten numbered evidence items](../../data/items.csv), each with exact file/line context.
-- [Blank author annotation worksheet](../../data/author_review_template.csv).
+- [Author annotation worksheet](../../data/author_review_template.csv) (E01 recorded; E02–E10 pending), with [Brian's verbatim E01 first pass](../../data/first_pass/E01_2026-10-24.md) and [later AI critique](../../data/ai_review/E01_2026-10-24.md) preserved separately.
 - [Rubric v1](../../rubrics/source-fidelity-v1.md) with outcome categories and severity anchors.
 - [Correction log](../../corrections/CHANGELOG.md) and [reproduction limits](../../methods/reproduction.md).
 

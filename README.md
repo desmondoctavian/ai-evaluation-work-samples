@@ -34,4 +34,4 @@ Open [items.csv](data/items.csv), choose an item, read its linked excerpt, apply
 
 **Next planned evidence:** Brian's personally documented short labels/rationales on these already-seen historical cases (disclosed as reannotation), followed by an unfamiliar, blinded pairwise-response exercise. See [Next steps](NEXT_STEPS.md).
 
-**Professional links:** [LinkedIn](https://www.linkedin.com/in/bdesmondshaw/) · [GitHub](https://github.com/desmondoctavian).
+**Professional links:** [LinkedIn](https://www.linkedin.com/in/bdesmondshaw/) · [GitHub](https://github.com/desmondoctavian) · [ORCID](https://orcid.org/0009-0008-9121-2215).
